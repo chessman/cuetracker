@@ -2,10 +2,6 @@ package org.github.chessman
 import net.ruippeixotog.scalascraper.browser.Browser
 import org.jsoup.nodes.Document
 
-object Cuetracker extends App {
-
-}
-
 class Cuetracker {
 
   def getDocument(url: String): Document = {
@@ -30,13 +26,5 @@ class Cuetracker {
       val doc = getDocument(url)
 
       Tournament(doc)
-  }
-}
-
-class CuetrackerHttpFileCache(cacheDir: String) extends Cuetracker {
-
-  override def getDocument(url: String): Document = {
-      val browser = new Browser
-      browser.get(url)
   }
 }
