@@ -6,7 +6,7 @@ Scala interface to CueTracker.net - Snooker Results and Statistics Database.
 # Roadmap
 
 * Head-to-Head statistics
-  * Mathes and frames head-to-head
+  * Matches and frames head-to-head
   * Career comparision
   * TODO: detailed information for each match
 * Tournament statistics
